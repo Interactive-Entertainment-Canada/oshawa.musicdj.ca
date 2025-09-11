@@ -1,0 +1,717 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Premier DJ Services in Oshawa - MusicDJ.ca | Wedding & Event DJs</title>
+    <meta name="description" content="Professional DJ services in Oshawa, Ontario. Wedding DJs, corporate events, parties. Led by DJ Trevor with 30+ years experience. Certified, licensed & insured.">
+    <meta name="keywords" content="Oshawa DJ, wedding DJ Oshawa, party DJ Oshawa, corporate events Oshawa, DJ Trevor, Durham Region DJ, event entertainment Oshawa">
+    <meta name="author" content="MusicDJ.ca - DJ Trevor">
+    <meta property="og:title" content="Premier DJ Services in Oshawa - MusicDJ.ca">
+    <meta property="og:description" content="Transform your Oshawa event with DJ Trevor's professional entertainment services. 30+ years experience, state-of-the-art equipment.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://oshawa.musicdj.ca">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="geo.region" content="CA-ON">
+    <meta name="geo.placename" content="Oshawa">
+    <meta name="ICBM" content="43.8971,-78.8658">
+    
+    <!-- Schema.org structured data -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "LocalBusiness",
+      "name": "MusicDJ.ca - Oshawa DJ Services",
+      "description": "Premier DJ and entertainment services in Oshawa, Ontario",
+      "url": "https://oshawa.musicdj.ca",
+      "telephone": "+1-905-XXX-XXXX",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Oshawa",
+        "addressRegion": "ON",
+        "addressCountry": "CA"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 43.8971,
+        "longitude": -78.8658
+      },
+      "areaServed": "Oshawa, Durham Region, Ontario",
+      "priceRange": "$$",
+      "openingHours": "Mo-Su 09:00-21:00"
+    }
+    </script>
+    
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+            color: #333;
+            overflow-x: hidden;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+        
+        /* Header Styles */
+        header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 1rem 0;
+            position: fixed;
+            width: 100%;
+            top: 0;
+            z-index: 1000;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        
+        .logo {
+            font-size: 1.8rem;
+            font-weight: bold;
+            text-decoration: none;
+            color: white;
+        }
+        
+        .nav-links {
+            display: flex;
+            list-style: none;
+            gap: 2rem;
+        }
+        
+        .nav-links a {
+            color: white;
+            text-decoration: none;
+            transition: opacity 0.3s;
+        }
+        
+        .nav-links a:hover {
+            opacity: 0.8;
+        }
+        
+        .mobile-menu {
+            display: none;
+            flex-direction: column;
+            cursor: pointer;
+        }
+        
+        .mobile-menu span {
+            width: 25px;
+            height: 3px;
+            background: white;
+            margin: 3px 0;
+            transition: 0.3s;
+        }
+        
+        /* Hero Section */
+        .hero {
+            background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 600"><rect fill="%23667eea" width="1200" height="600"/><circle fill="%23764ba2" cx="200" cy="150" r="80" opacity="0.3"/><circle fill="%23f093fb" cx="800" cy="400" r="120" opacity="0.2"/><circle fill="%23f5576c" cx="1000" cy="200" r="60" opacity="0.4"/></svg>');
+            background-size: cover;
+            background-position: center;
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            text-align: center;
+            color: white;
+        }
+        
+        .hero-content h1 {
+            font-size: 3.5rem;
+            margin-bottom: 1rem;
+            animation: slideInDown 1s ease-out;
+        }
+        
+        .hero-content .subtitle {
+            font-size: 1.5rem;
+            margin-bottom: 2rem;
+            animation: slideInUp 1s ease-out 0.3s both;
+        }
+        
+        .cta-button {
+            background: linear-gradient(45deg, #f093fb, #f5576c);
+            color: white;
+            padding: 15px 30px;
+            border: none;
+            border-radius: 50px;
+            font-size: 1.2rem;
+            cursor: pointer;
+            text-decoration: none;
+            display: inline-block;
+            transition: transform 0.3s, box-shadow 0.3s;
+            animation: slideInUp 1s ease-out 0.6s both;
+        }
+        
+        .cta-button:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 10px 30px rgba(240, 147, 251, 0.4);
+        }
+        
+        /* Sections */
+        .section {
+            padding: 80px 0;
+        }
+        
+        .section:nth-child(even) {
+            background: #f8f9fa;
+        }
+        
+        .section-title {
+            text-align: center;
+            font-size: 2.5rem;
+            margin-bottom: 3rem;
+            color: #333;
+        }
+        
+        /* About Section */
+        .about-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 4rem;
+            align-items: center;
+            margin-top: 3rem;
+        }
+        
+        .about-text h3 {
+            font-size: 1.8rem;
+            margin-bottom: 1rem;
+            color: #667eea;
+        }
+        
+        .about-text p {
+            font-size: 1.1rem;
+            margin-bottom: 1.5rem;
+            line-height: 1.8;
+        }
+        
+        .highlight {
+            background: linear-gradient(120deg, #f093fb 0%, #f5576c 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            font-weight: bold;
+        }
+        
+        /* Services Section */
+        .services-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+            margin-top: 3rem;
+        }
+        
+        .service-card {
+            background: white;
+            padding: 2rem;
+            border-radius: 15px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+            text-align: center;
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+        
+        .service-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 20px 50px rgba(0,0,0,0.15);
+        }
+        
+        .service-icon {
+            font-size: 3rem;
+            margin-bottom: 1rem;
+        }
+        
+        .service-card h3 {
+            font-size: 1.5rem;
+            margin-bottom: 1rem;
+            color: #333;
+        }
+        
+        /* Areas Served */
+        .areas-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+            gap: 1rem;
+            margin-top: 2rem;
+        }
+        
+        .area-item {
+            background: white;
+            padding: 1rem;
+            border-radius: 8px;
+            text-align: center;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+            transition: transform 0.3s;
+        }
+        
+        .area-item:hover {
+            transform: translateY(-5px);
+        }
+        
+        .oshawa-highlight {
+            background: linear-gradient(135deg, #667eea, #764ba2);
+            color: white;
+            font-weight: bold;
+        }
+        
+        /* Testimonials */
+        .testimonial {
+            background: white;
+            padding: 2rem;
+            border-radius: 15px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+            margin: 2rem 0;
+            position: relative;
+        }
+        
+        .testimonial::before {
+            content: '"';
+            font-size: 4rem;
+            color: #667eea;
+            position: absolute;
+            top: -10px;
+            left: 20px;
+        }
+        
+        .testimonial-text {
+            font-style: italic;
+            font-size: 1.2rem;
+            margin-bottom: 1rem;
+            padding-left: 2rem;
+        }
+        
+        .testimonial-author {
+            font-weight: bold;
+            color: #333;
+            text-align: right;
+        }
+        
+        /* Contact Form */
+        .contact-form {
+            max-width: 600px;
+            margin: 0 auto;
+            background: white;
+            padding: 2rem;
+            border-radius: 15px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+        }
+        
+        .form-group {
+            margin-bottom: 1.5rem;
+        }
+        
+        .form-group label {
+            display: block;
+            margin-bottom: 0.5rem;
+            font-weight: bold;
+            color: #333;
+        }
+        
+        .form-group input,
+        .form-group textarea,
+        .form-group select {
+            width: 100%;
+            padding: 12px;
+            border: 2px solid #e1e5e9;
+            border-radius: 8px;
+            font-size: 1rem;
+            transition: border-color 0.3s;
+        }
+        
+        .form-group input:focus,
+        .form-group textarea:focus,
+        .form-group select:focus {
+            outline: none;
+            border-color: #667eea;
+        }
+        
+        .form-group textarea {
+            height: 120px;
+            resize: vertical;
+        }
+        
+        .submit-btn {
+            background: linear-gradient(45deg, #667eea, #764ba2);
+            color: white;
+            padding: 15px 30px;
+            border: none;
+            border-radius: 8px;
+            font-size: 1.1rem;
+            cursor: pointer;
+            width: 100%;
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+        
+        .submit-btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 10px 30px rgba(102, 126, 234, 0.4);
+        }
+        
+        /* Footer */
+        footer {
+            background: #333;
+            color: white;
+            text-align: center;
+            padding: 2rem 0;
+        }
+        
+        /* Animations */
+        @keyframes slideInDown {
+            from {
+                opacity: 0;
+                transform: translateY(-50px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+        
+        @keyframes slideInUp {
+            from {
+                opacity: 0;
+                transform: translateY(50px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+        
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            .nav-links {
+                display: none;
+            }
+            
+            .mobile-menu {
+                display: flex;
+            }
+            
+            .hero-content h1 {
+                font-size: 2.5rem;
+            }
+            
+            .hero-content .subtitle {
+                font-size: 1.2rem;
+            }
+            
+            .about-grid {
+                grid-template-columns: 1fr;
+                gap: 2rem;
+            }
+            
+            .section-title {
+                font-size: 2rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav class="container">
+            <a href="#" class="logo">MusicDJ.ca</a>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#areas">Coverage</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="mobile-menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1>Premier DJ Services in <span class="highlight">Oshawa</span></h1>
+                <p class="subtitle">Transform Your Event with DJ Trevor's Award-Winning Entertainment</p>
+                <a href="#contact" class="cta-button">Get Your Free Quote</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="section">
+        <div class="container">
+            <h2 class="section-title">Oshawa's #1 Interactive Entertainer</h2>
+            <div class="about-grid">
+                <div class="about-text">
+                    <h3>Meet DJ Trevor</h3>
+                    <p>Based right here in <strong>Oshawa</strong>, DJ Trevor brings over <span class="highlight">30 years of entertainment excellence</span> to your special events. Featured on Canada's Got Talent 2023 and honored as Entertainer of the Year by Magen Boys Entertainment Hall of Fame.</p>
+                    <p>From intimate Oshawa weddings to large corporate events across Durham Region, Trevor's dynamic performances as a DJ, singer, dancer, and host create unforgettable experiences that captivate every audience.</p>
+                    <p><strong>Certified, Licensed & Insured</strong> - Your peace of mind is our priority.</p>
+                </div>
+                <div class="about-image">
+                    <div style="background: linear-gradient(135deg, #667eea, #764ba2); height: 400px; border-radius: 15px; display: flex; align-items: center; justify-content: center; color: white; font-size: 1.2rem;">
+                        DJ Trevor - Canada's Got Talent 2023<br>
+                        Oshawa's Premier Entertainment
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="services" class="section">
+        <div class="container">
+            <h2 class="section-title">Complete Entertainment Solutions for Oshawa</h2>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">💒</div>
+                    <h3>Wedding DJ Services</h3>
+                    <p>Make your Oshawa wedding unforgettable with our professional DJ services, state-of-the-art sound, and dynamic lighting.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">🏢</div>
+                    <h3>Corporate Events</h3>
+                    <p>Professional entertainment for Oshawa businesses, conferences, and corporate celebrations with seamless execution.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">🎉</div>
+                    <h3>Private Parties</h3>
+                    <p>Birthdays, anniversaries, and special celebrations in Oshawa - we bring the energy and excitement your guests will love.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">🎤</div>
+                    <h3>Interactive Entertainment</h3>
+                    <p>Karaoke, games, dancing, and MC services that engage your guests and create lasting memories.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">🎵</div>
+                    <h3>Sound & Lighting</h3>
+                    <p>Professional-grade audio equipment and dynamic lighting setups for crystal-clear sound and perfect ambiance.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">📸</div>
+                    <h3>Photo Booth Services</h3>
+                    <p>Interactive photo booth experiences with props and instant prints to capture your special Oshawa moments.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="areas" class="section">
+        <div class="container">
+            <h2 class="section-title">Proudly Serving Oshawa & Durham Region</h2>
+            <p style="text-align: center; font-size: 1.2rem; margin-bottom: 2rem;">
+                Based in Oshawa, we provide exceptional DJ and entertainment services throughout Durham Region and beyond.
+            </p>
+            <div class="areas-grid">
+                <div class="area-item oshawa-highlight">Oshawa ⭐</div>
+                <div class="area-item">Whitby</div>
+                <div class="area-item">Ajax</div>
+                <div class="area-item">Pickering</div>
+                <div class="area-item">Bowmanville</div>
+                <div class="area-item">Courtice</div>
+                <div class="area-item">Brooklin</div>
+                <div class="area-item">Port Perry</div>
+                <div class="area-item">Uxbridge</div>
+                <div class="area-item">Clarington</div>
+                <div class="area-item">Toronto</div>
+                <div class="area-item">Mississauga</div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section">
+        <div class="container">
+            <h2 class="section-title">What Our Oshawa Clients Say</h2>
+            <div class="testimonial">
+                <p class="testimonial-text">Trevor didn't just DJ our Oshawa wedding – he created an experience we'll never forget. Every guest was on the dance floor, and his energy was absolutely infectious! His professionalism and attention to detail made our special day perfect.</p>
+                <p class="testimonial-author">- Sarah & Michael Johnson, Oshawa Wedding Clients</p>
+            </div>
+            <div class="testimonial">
+                <p class="testimonial-text">We hired DJ Trevor for our corporate event in Oshawa and he exceeded all expectations. Professional, engaging, and he really knows how to read a crowd. Our employees are still talking about it!</p>
+                <p class="testimonial-author">- Jennifer M., Oshawa Corporate Client</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="section">
+        <div class="container">
+            <h2 class="section-title">Get Your Free Quote Today</h2>
+            <p style="text-align: center; margin-bottom: 2rem; font-size: 1.2rem;">
+                Ready to make your Oshawa event unforgettable? Contact us for a personalized quote!
+            </p>
+            
+            <form class="contact-form" action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+                <div class="form-group">
+                    <label for="name">Full Name *</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="email">Email Address *</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="phone">Phone Number</label>
+                    <input type="tel" id="phone" name="phone">
+                </div>
+                
+                <div class="form-group">
+                    <label for="event-type">Event Type *</label>
+                    <select id="event-type" name="event-type" required>
+                        <option value="">Select Event Type</option>
+                        <option value="wedding">Wedding</option>
+                        <option value="corporate">Corporate Event</option>
+                        <option value="birthday">Birthday Party</option>
+                        <option value="anniversary">Anniversary</option>
+                        <option value="graduation">Graduation</option>
+                        <option value="other">Other</option>
+                    </select>
+                </div>
+                
+                <div class="form-group">
+                    <label for="date">Event Date</label>
+                    <input type="date" id="date" name="date">
+                </div>
+                
+                <div class="form-group">
+                    <label for="location">Event Location in Oshawa/Durham</label>
+                    <input type="text" id="location" name="location" placeholder="e.g., Oshawa Golf Club, Private Residence, etc.">
+                </div>
+                
+                <div class="form-group">
+                    <label for="guests">Estimated Number of Guests</label>
+                    <select id="guests" name="guests">
+                        <option value="">Select Guest Count</option>
+                        <option value="1-25">1-25 guests</option>
+                        <option value="26-50">26-50 guests</option>
+                        <option value="51-100">51-100 guests</option>
+                        <option value="101-200">101-200 guests</option>
+                        <option value="200+">200+ guests</option>
+                    </select>
+                </div>
+                
+                <div class="form-group">
+                    <label for="services">Services Needed</label>
+                    <textarea id="services" name="services" placeholder="Please describe the services you need (DJ, MC, lighting, photo booth, etc.)"></textarea>
+                </div>
+                
+                <div class="form-group">
+                    <label for="message">Additional Details</label>
+                    <textarea id="message" name="message" placeholder="Tell us more about your vision for the event..."></textarea>
+                </div>
+                
+                <!-- Hidden field for tracking -->
+                <input type="hidden" name="_subject" value="New Oshawa Event Inquiry">
+                <input type="hidden" name="_next" value="https://oshawa.musicdj.ca/thank-you.html">
+                
+                <button type="submit" class="submit-btn">Get My Free Quote</button>
+            </form>
+            
+            <div style="text-align: center; margin-top: 2rem;">
+                <p><strong>📞 Call/Text:</strong> (905) XXX-XXXX</p>
+                <p><strong>📧 Email:</strong> info@musicdj.ca</p>
+                <p><strong>📍 Based in:</strong> Oshawa, Ontario</p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 MusicDJ.ca - Premier DJ Services in Oshawa, Ontario | Certified, Licensed & Insured</p>
+            <p>Serving Oshawa, Durham Region & Greater Toronto Area</p>
+        </div>
+    </footer>
+
+    <script>
+        // Smooth scrolling for navigation links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    const headerOffset = 80;
+                    const elementPosition = target.getBoundingClientPosition().top;
+                    const offsetPosition = elementPosition + window.pageYOffset - headerOffset;
+
+                    window.scrollTo({
+                        top: offsetPosition,
+                        behavior: 'smooth'
+                    });
+                }
+            });
+        });
+
+        // Mobile menu toggle
+        const mobileMenu = document.querySelector('.mobile-menu');
+        const navLinks = document.querySelector('.nav-links');
+
+        mobileMenu.addEventListener('click', () => {
+            navLinks.style.display = navLinks.style.display === 'flex' ? 'none' : 'flex';
+        });
+
+        // Form validation and enhancement
+        const form = document.querySelector('.contact-form');
+        form.addEventListener('submit', function(e) {
+            const requiredFields = form.querySelectorAll('[required]');
+            let isValid = true;
+            
+            requiredFields.forEach(field => {
+                if (!field.value.trim()) {
+                    isValid = false;
+                    field.style.borderColor = '#f5576c';
+                } else {
+                    field.style.borderColor = '#e1e5e9';
+                }
+            });
+            
+            if (!isValid) {
+                e.preventDefault();
+                alert('Please fill in all required fields.');
+            }
+        });
+
+        // Intersection Observer for animations
+        const observerOptions = {
+            threshold: 0.1,
+            rootMargin: '0px 0px -50px 0px'
+        };
+
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.style.opacity = '1';
+                    entry.target.style.transform = 'translateY(0)';
+                }
+            });
+        }, observerOptions);
+
+        // Observe all service cards and area items
+        document.querySelectorAll('.service-card, .area-item, .testimonial').forEach(el => {
+            el.style.opacity = '0';
+            el.style.transform = 'translateY(20px)';
+            el.style.transition = 'opacity 0.6s ease, transform 0.6s ease';
+            observer.observe(el);
+        });
+
+        // Header background change on scroll
+        window.addEventListener('scroll', () => {
+            const header = document.querySelector('header');
+            if (window.scrollY > 100) {
+                header.style.background = 'rgba(102, 126, 234, 0.95)';
+            } else {
+                header.style.background = 'linear-gradient(135deg, #667eea 0%, #764ba2 100%)';
+            }
+        });
+    </script>
+</body>
+</html>
